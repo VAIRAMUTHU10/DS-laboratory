@@ -1,0 +1,52 @@
+.container{
+     background-image: url(image.png);
+     background-size: cover;
+     background-position:left;
+     background-repeat: no-repeat;
+     height: 580px;
+    
+     position: relative;
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    float: left;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+li a{
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        text-align: center;
+        color: black;
+}
+li a:hover{
+    background-color: red;
+}
+.one{
+    float: left;
+    padding: 15px;
+    font-size: 30px;
+}
+.two{
+    float: right;
+    
+    font-size: 15px;
+}
+.touch{
+     
+     width: 40px;
+     margin: 20px 10px;
+     cursor: pointer;
+}
